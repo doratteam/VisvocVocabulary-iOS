@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D47C711E1F536B00E2E331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D47C701E1F536B00E2E331 /* AppDelegate.swift */; };
+		D7D47C731E1F536B00E2E331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D47C721E1F536B00E2E331 /* ViewController.swift */; };
+		D7D47C761E1F536B00E2E331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D47C741E1F536B00E2E331 /* Main.storyboard */; };
+		D7D47C781E1F536B00E2E331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D47C771E1F536B00E2E331 /* Assets.xcassets */; };
+		D7D47C7B1E1F536B00E2E331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D47C791E1F536B00E2E331 /* LaunchScreen.storyboard */; };
+		D7D47C861E1F536B00E2E331 /* VisvocVocabularyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D47C851E1F536B00E2E331 /* VisvocVocabularyTests.swift */; };
+		D7D47C911E1F536B00E2E331 /* VisvocVocabularyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D47C901E1F536B00E2E331 /* VisvocVocabularyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D47C821E1F536B00E2E331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D47C651E1F536B00E2E331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D47C6C1E1F536B00E2E331;
+			remoteInfo = VisvocVocabulary;
+		};
+		D7D47C8D1E1F536B00E2E331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D47C651E1F536B00E2E331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D47C6C1E1F536B00E2E331;
+			remoteInfo = VisvocVocabulary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7D47C6D1E1F536B00E2E331 /* VisvocVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisvocVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D47C701E1F536B00E2E331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D47C721E1F536B00E2E331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7D47C751E1F536B00E2E331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D47C771E1F536B00E2E331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7D47C7A1E1F536B00E2E331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7D47C7C1E1F536B00E2E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D47C811E1F536B00E2E331 /* VisvocVocabularyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisvocVocabularyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D47C851E1F536B00E2E331 /* VisvocVocabularyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisvocVocabularyTests.swift; sourceTree = "<group>"; };
+		D7D47C871E1F536B00E2E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D47C8C1E1F536B00E2E331 /* VisvocVocabularyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisvocVocabularyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D47C901E1F536B00E2E331 /* VisvocVocabularyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisvocVocabularyUITests.swift; sourceTree = "<group>"; };
+		D7D47C921E1F536B00E2E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D47C6A1E1F536B00E2E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C7E1E1F536B00E2E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C891E1F536B00E2E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D47C641E1F536B00E2E331 = {
+			isa = PBXGroup;
+			children = (
+				D7D47C6F1E1F536B00E2E331 /* VisvocVocabulary */,
+				D7D47C841E1F536B00E2E331 /* VisvocVocabularyTests */,
+				D7D47C8F1E1F536B00E2E331 /* VisvocVocabularyUITests */,
+				D7D47C6E1E1F536B00E2E331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D47C6E1E1F536B00E2E331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D47C6D1E1F536B00E2E331 /* VisvocVocabulary.app */,
+				D7D47C811E1F536B00E2E331 /* VisvocVocabularyTests.xctest */,
+				D7D47C8C1E1F536B00E2E331 /* VisvocVocabularyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D47C6F1E1F536B00E2E331 /* VisvocVocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				D7D47C701E1F536B00E2E331 /* AppDelegate.swift */,
+				D7D47C721E1F536B00E2E331 /* ViewController.swift */,
+				D7D47C741E1F536B00E2E331 /* Main.storyboard */,
+				D7D47C771E1F536B00E2E331 /* Assets.xcassets */,
+				D7D47C791E1F536B00E2E331 /* LaunchScreen.storyboard */,
+				D7D47C7C1E1F536B00E2E331 /* Info.plist */,
+			);
+			path = VisvocVocabulary;
+			sourceTree = "<group>";
+		};
+		D7D47C841E1F536B00E2E331 /* VisvocVocabularyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D47C851E1F536B00E2E331 /* VisvocVocabularyTests.swift */,
+				D7D47C871E1F536B00E2E331 /* Info.plist */,
+			);
+			path = VisvocVocabularyTests;
+			sourceTree = "<group>";
+		};
+		D7D47C8F1E1F536B00E2E331 /* VisvocVocabularyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D47C901E1F536B00E2E331 /* VisvocVocabularyUITests.swift */,
+				D7D47C921E1F536B00E2E331 /* Info.plist */,
+			);
+			path = VisvocVocabularyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D47C6C1E1F536B00E2E331 /* VisvocVocabulary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D47C951E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabulary" */;
+			buildPhases = (
+				D7D47C691E1F536B00E2E331 /* Sources */,
+				D7D47C6A1E1F536B00E2E331 /* Frameworks */,
+				D7D47C6B1E1F536B00E2E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisvocVocabulary;
+			productName = VisvocVocabulary;
+			productReference = D7D47C6D1E1F536B00E2E331 /* VisvocVocabulary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D47C801E1F536B00E2E331 /* VisvocVocabularyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D47C981E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabularyTests" */;
+			buildPhases = (
+				D7D47C7D1E1F536B00E2E331 /* Sources */,
+				D7D47C7E1E1F536B00E2E331 /* Frameworks */,
+				D7D47C7F1E1F536B00E2E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D47C831E1F536B00E2E331 /* PBXTargetDependency */,
+			);
+			name = VisvocVocabularyTests;
+			productName = VisvocVocabularyTests;
+			productReference = D7D47C811E1F536B00E2E331 /* VisvocVocabularyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7D47C8B1E1F536B00E2E331 /* VisvocVocabularyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D47C9B1E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabularyUITests" */;
+			buildPhases = (
+				D7D47C881E1F536B00E2E331 /* Sources */,
+				D7D47C891E1F536B00E2E331 /* Frameworks */,
+				D7D47C8A1E1F536B00E2E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D47C8E1E1F536B00E2E331 /* PBXTargetDependency */,
+			);
+			name = VisvocVocabularyUITests;
+			productName = VisvocVocabularyUITests;
+			productReference = D7D47C8C1E1F536B00E2E331 /* VisvocVocabularyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D47C651E1F536B00E2E331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Taiwon Chung";
+				TargetAttributes = {
+					D7D47C6C1E1F536B00E2E331 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D7D47C801E1F536B00E2E331 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7D47C6C1E1F536B00E2E331;
+					};
+					D7D47C8B1E1F536B00E2E331 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7D47C6C1E1F536B00E2E331;
+					};
+				};
+			};
+			buildConfigurationList = D7D47C681E1F536B00E2E331 /* Build configuration list for PBXProject "VisvocVocabulary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D47C641E1F536B00E2E331;
+			productRefGroup = D7D47C6E1E1F536B00E2E331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D47C6C1E1F536B00E2E331 /* VisvocVocabulary */,
+				D7D47C801E1F536B00E2E331 /* VisvocVocabularyTests */,
+				D7D47C8B1E1F536B00E2E331 /* VisvocVocabularyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D47C6B1E1F536B00E2E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D47C7B1E1F536B00E2E331 /* LaunchScreen.storyboard in Resources */,
+				D7D47C781E1F536B00E2E331 /* Assets.xcassets in Resources */,
+				D7D47C761E1F536B00E2E331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C7F1E1F536B00E2E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C8A1E1F536B00E2E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D47C691E1F536B00E2E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D47C731E1F536B00E2E331 /* ViewController.swift in Sources */,
+				D7D47C711E1F536B00E2E331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C7D1E1F536B00E2E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D47C861E1F536B00E2E331 /* VisvocVocabularyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D47C881E1F536B00E2E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D47C911E1F536B00E2E331 /* VisvocVocabularyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D47C831E1F536B00E2E331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D47C6C1E1F536B00E2E331 /* VisvocVocabulary */;
+			targetProxy = D7D47C821E1F536B00E2E331 /* PBXContainerItemProxy */;
+		};
+		D7D47C8E1E1F536B00E2E331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D47C6C1E1F536B00E2E331 /* VisvocVocabulary */;
+			targetProxy = D7D47C8D1E1F536B00E2E331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7D47C741E1F536B00E2E331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D47C751E1F536B00E2E331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D47C791E1F536B00E2E331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D47C7A1E1F536B00E2E331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D47C931E1F536B00E2E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D47C941E1F536B00E2E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D47C961E1F536B00E2E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisvocVocabulary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabulary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7D47C971E1F536B00E2E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisvocVocabulary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabulary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7D47C991E1F536B00E2E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisvocVocabularyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabularyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisvocVocabulary.app/VisvocVocabulary";
+			};
+			name = Debug;
+		};
+		D7D47C9A1E1F536B00E2E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisvocVocabularyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabularyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisvocVocabulary.app/VisvocVocabulary";
+			};
+			name = Release;
+		};
+		D7D47C9C1E1F536B00E2E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VisvocVocabularyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabularyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VisvocVocabulary;
+			};
+			name = Debug;
+		};
+		D7D47C9D1E1F536B00E2E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VisvocVocabularyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Visvoc.VisvocVocabularyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VisvocVocabulary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D47C681E1F536B00E2E331 /* Build configuration list for PBXProject "VisvocVocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D47C931E1F536B00E2E331 /* Debug */,
+				D7D47C941E1F536B00E2E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D47C951E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabulary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D47C961E1F536B00E2E331 /* Debug */,
+				D7D47C971E1F536B00E2E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7D47C981E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabularyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D47C991E1F536B00E2E331 /* Debug */,
+				D7D47C9A1E1F536B00E2E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7D47C9B1E1F536B00E2E331 /* Build configuration list for PBXNativeTarget "VisvocVocabularyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D47C9C1E1F536B00E2E331 /* Debug */,
+				D7D47C9D1E1F536B00E2E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7D47C651E1F536B00E2E331 /* Project object */;
+}
